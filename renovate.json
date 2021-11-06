@@ -1,0 +1,5 @@
+{
+	"dependencyDashboard": false,
+	"extends": ["config:base"],
+	"schedule": ["every weekend"]
+}

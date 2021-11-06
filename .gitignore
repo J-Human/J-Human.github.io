@@ -1,0 +1,37 @@
+# Environment variables
+.env*
+
+# IDE files
+*~
+*.code-workspace
+.idea/
+.history
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+!.vscode/extensions.json
+
+# Runtime data
+*.pid
+*.seed
+pids
+
+# Logs
+*.log
+.pnpm-debug.log*
+logs/
+
+# Dependencies
+node_modules/
+
+# Output
+dist/
+dist-ssr/
+
+# System files
+.DS_Store
+
+# Local files
+*.local
