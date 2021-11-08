@@ -1,7 +1,29 @@
 <template>
-	<!-- Proof of concept
 	<ul v-for="link in contacts" :key="link.name">
-		<li><i class="`${link.icon}`"</i> {{ link.name}}: {{ link.value }}</li>
+		<li>
+			{{ link.name }}: <a :href="link.link" target="_blank" rel="noopener noreferrer">{{ link.value }}</a>
+		</li>
 	</ul>
-	-->
 </template>
+
+<script setup lang="ts">
+import { parse } from 'toml';
+import { computed } from 'vue';
+import data from '../data/contacts';
+
+const contacts = computed(() => parse(data));
+</script>
+
+<style scoped>
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 0, 238);
+}
+ul {
+	font-size: 15px;
+	list-style: none;
+	text-align: center;
+}
+</style>

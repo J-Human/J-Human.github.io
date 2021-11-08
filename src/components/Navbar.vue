@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<img id="logo" alt="logo" src="../../public/favicon.ico" />
+		<img id="logo" alt="logo" src="../../public/assets/favicon.ico" />
 		<nav id="navbar">
 			<ul id="navbar-links">
 				<li>

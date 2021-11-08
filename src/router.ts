@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import App from './App.vue';
+import AboutMe from './components/AboutMe.vue';
 import Contacts from './components/Contacts.vue';
 
 export default createRouter({
 	history: createWebHistory(),
 	routes: [
-		{ path: '/', name: 'About me', component: App },
+		{ path: '/', name: 'About me', component: AboutMe },
 		{ path: '/contact', name: 'Contact', component: Contacts },
+		{ path: '/:pathMatch(.*)*', component: AboutMe },
 	],
 });

@@ -20,7 +20,6 @@
 			"resolveJsonModule": true,
 			"rootDir": ".",
 			"typeRoots": ["./node_modules/**/*"],
-			"types": ["node"],
 
 			// Emit
 			"importHelpers": true,
