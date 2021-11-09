@@ -19,8 +19,8 @@ export function useKonamiCode() {
 	onKeyStroke(konamiCodePattern, (event) => {
 		rate.value = event.key === konamiCodePattern[rate.value] ? rate.value + 1 : 0;
 		if (rate.value === konamiCodePattern.length) {
-			// Do something. For now, just log it.
-			console.log('Konami code activated. ✨');
+			// eslint-disable-next-line no-alert
+			alert('✨');
 		}
 	});
 }
