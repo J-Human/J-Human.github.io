@@ -35,9 +35,10 @@ header {
 	padding: 30px 10%;
 }
 #logo {
+	aspect-ratio: attr(width) / attr(height);
 	cursor: pointer;
-	order: 2;
 	margin-left: auto;
+	order: 2;
 }
 #navbar {
 	order: 1;
