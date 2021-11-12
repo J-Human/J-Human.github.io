@@ -12,22 +12,20 @@
 div {
 	text-align: center;
 }
-h1 {
-	font-weight: bold;
-}
 h2 {
 	font-size: 50px;
+	font-weight: bold;
 	margin-top: 70px;
 }
-span {
-	color: gray;
-	font-size: 19px;
-}
 p {
-	color: rgba(28, 27, 29, 0.945);
+	color: #1c1b1d;
 	font-size: 19px;
 	margin: 90px;
 	margin-top: 70px;
+}
+span {
+	color: #808080;
+	font-size: 19px;
 }
 @media screen and (min-width: 1366px) {
 	h1,

@@ -16,16 +16,16 @@
 
 <style scoped>
 * {
-	background-color: white;
+	background-color: #ffffff;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 a,
 li {
-	color: rgb(36, 168, 230);
-	font-weight: 500;
+	color: #24a9e6;
 	font-size: 16px;
+	font-weight: 500;
 	text-decoration: none;
 }
 header {
@@ -62,13 +62,13 @@ header {
 #navbar-links li a:active {
 	color: blue;
 }
-/** iPhone SE */
+/* iPhone SE */
 @media screen and (max-width: 375px) {
 	#navbar-links li {
 		padding: 0px 3px;
 	}
 }
-/** Experimental */
+/* Experimental */
 @media (prefers-contrast: more) {
 	#logo {
 		filter: contrast(100%);
