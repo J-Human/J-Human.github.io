@@ -2,7 +2,7 @@
 	<div>
 		<h2>Justin <span>(he/him)</span></h2>
 		<p>
-			Hi there. I'm a software developer with experience in open source, backend, and a good amount of web development
+			Hi there. I make software. I have experience in open source, backend, and a good amount of web development
 			with React and Vue. I also like to game and travel.
 		</p>
 	</div>
