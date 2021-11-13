@@ -1,5 +1,6 @@
 {
 	"dependencyDashboard": false,
 	"extends": ["config:base"],
+	"groupName": "all",
 	"schedule": ["every weekend"]
 }
