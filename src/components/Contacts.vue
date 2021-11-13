@@ -19,7 +19,7 @@ a {
 	text-decoration: none;
 }
 a:visited {
-	color: #0000ee;
+	color: #0000ff;
 }
 ul {
 	font-size: 15px;

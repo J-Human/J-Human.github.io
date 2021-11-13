@@ -57,10 +57,10 @@ header {
 	transition: all 0.3s ease 0s;
 }
 #navbar-links li a:hover {
-	color: blue;
+	color: #0000ff;
 }
 #navbar-links li a:active {
-	color: blue;
+	color: #0000ff;
 }
 /* iPhone SE */
 @media screen and (max-width: 375px) {
