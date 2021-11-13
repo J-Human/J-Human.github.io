@@ -6,6 +6,10 @@
 	</p>
 </template>
 
+<script setup lang="ts">
+declare const name = 'UnknownPage';
+</script>
+
 <style scoped>
 * {
 	text-align: center;
