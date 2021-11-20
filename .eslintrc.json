@@ -3,5 +3,8 @@
 	"extends": ["marine/prettier/node", "marine/prettier/vue"],
 	"parserOptions": {
 		"project": "./tsconfig.eslint.json"
+	},
+	"rules": {
+		"vue/multi-word-component-names": "off"
 	}
 }

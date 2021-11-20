@@ -11,7 +11,7 @@ import { parse } from 'toml';
 import { computed } from 'vue';
 import data from '../data/contacts';
 
-const contacts = computed(() => parse(data));
+const contacts = computed(() => parse(data) ?? {});
 </script>
 
 <style scoped>

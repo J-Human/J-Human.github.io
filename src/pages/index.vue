@@ -8,10 +8,6 @@
 	</div>
 </template>
 
-<script setup lang="ts">
-declare const name = 'AboutMe';
-</script>
-
 <style scoped>
 div {
 	text-align: center;
