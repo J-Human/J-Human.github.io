@@ -3,7 +3,7 @@
 import * as TOML from 'toml';
 
 export function parse(input: string): ReturnType<typeof TOML.parse> {
-	let result = null;
+	let result;
 	try {
 		result = TOML.parse(input);
 	} catch (error) {
