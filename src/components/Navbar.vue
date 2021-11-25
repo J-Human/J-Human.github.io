@@ -10,7 +10,7 @@
 			"
 		/>
 		<nav id="navbar">
-			<ul id="navbar-links" class="no-under">
+			<ul id="navbar-links">
 				<li>
 					<router-link to="/" class="no-under">About me</router-link>
 				</li>
