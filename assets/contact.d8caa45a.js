@@ -1,4 +1,4 @@
-import{_ as fi}from"./index.47de180e.js";import{h as ai,l as ci,u as Ds,o as Ae,c as me,F as ui,m as oi,p as pi,d as hi,a as he,n as gi,e as di,t as Is}from"./vendor.6a933bed.js";var vi=`
+import{_ as fi}from"./index.81f0046b.js";import{h as ai,l as ci,u as Ds,o as Ae,c as me,F as ui,m as oi,p as pi,d as hi,a as he,n as gi,e as di,t as Is}from"./vendor.6a933bed.js";var vi=`
 	[github]
 	icon = "github"
 	brand = true
