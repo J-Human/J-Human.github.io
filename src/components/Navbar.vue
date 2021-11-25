@@ -1,6 +1,14 @@
 <template>
 	<header>
-		<img id="logo" alt="logo" src="../../public/assets/favicon.ico" />
+		<img
+			id="logo"
+			alt="logo"
+			srcset="
+				../../public/assets/favicon.ico,
+				../../public/assets/icon-192x192.png  4x,
+				../../public/assets/icon-512x512.png 10.7x
+			"
+		/>
 		<nav id="navbar">
 			<ul id="navbar-links">
 				<li>
