@@ -2,7 +2,7 @@
 
 import * as TOML from 'toml';
 
-export function parse(input: string): ReturnType<typeof TOML.parse> {
+export function parse(input: string): ReturnType<typeof TOML.parse> | void {
 	let result;
 	try {
 		result = TOML.parse(input);
