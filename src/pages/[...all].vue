@@ -1,21 +1,19 @@
 <template>
-	<h2>404</h2>
-	<p>
-		We could not find the page you were looking for. Let's go
-		<router-link to="/">home</router-link>.
-	</p>
+	<div class="posn-mi">
+		<h2>404</h2>
+		<p>
+			We could not find the page you were looking for. Let's go
+			<router-link class="no-under" to="/">home</router-link>.
+		</p>
+	</div>
 </template>
 
 <style scoped>
-* {
-	text-align: center;
-}
 a {
-	text-decoration: none;
 	transition: all 0.3s ease 0s;
 }
 a:visited {
-	color: #0000ff;
+	color: var(--text-theme);
 }
 h2 {
 	font-size: 50px;

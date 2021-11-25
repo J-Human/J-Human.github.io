@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="posn-mi">
 		<h2>Justin <span>(he/him)</span></h2>
 		<p>
 			Hi there. I make software. I have experience in open source, backend, and a good amount of web development
@@ -9,9 +9,6 @@
 </template>
 
 <style scoped>
-div {
-	text-align: center;
-}
 h2 {
 	font-size: 50px;
 	font-weight: bold;

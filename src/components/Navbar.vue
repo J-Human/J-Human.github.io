@@ -10,12 +10,12 @@
 			"
 		/>
 		<nav id="navbar">
-			<ul id="navbar-links">
+			<ul id="navbar-links" class="no-under">
 				<li>
-					<router-link to="/">About me</router-link>
+					<router-link to="/" class="no-under">About me</router-link>
 				</li>
 				<li>
-					<router-link to="/contact">Contact</router-link>
+					<router-link to="/contact" class="no-under">Contact</router-link>
 				</li>
 			</ul>
 		</nav>
@@ -34,7 +34,6 @@ li {
 	color: #24a9e6;
 	font-size: 16px;
 	font-weight: 500;
-	text-decoration: none;
 }
 header {
 	align-items: center;
@@ -65,10 +64,10 @@ header {
 	transition: all 0.3s ease 0s;
 }
 #navbar-links li a:hover {
-	color: #0000ff;
+	color: var(--text-theme);
 }
 #navbar-links li a:active {
-	color: #0000ff;
+	color: var(--text-theme);
 }
 /* iPhone SE */
 @media screen and (max-width: 375px) {

@@ -1,9 +1,9 @@
 <template>
 	<div v-if="contacts">
-		<ul v-for="link in contacts" :key="link.name">
+		<ul v-for="link in contacts" :key="link.name" class="posn-mi">
 			<li>
 				<i :class="`fa${link.brand ? '-brands' : 's'} fa-${link.icon}`" /> {{ link.name }}:
-				<a :href="link.link" target="_blank" rel="noopener noreferrer">{{ link.value }}</a>
+				<a :href="link.link" target="_blank" class="no-under" rel="noopener noreferrer">{{ link.value }}</a>
 			</li>
 		</ul>
 		<footer>
@@ -22,11 +22,8 @@ const contacts = computed(() => parse(data));
 </script>
 
 <style scoped>
-a {
-	text-decoration: none;
-}
 a:visited {
-	color: #0000ff;
+	color: var(--text-theme);
 }
 footer > p {
 	bottom: 1px;
@@ -37,12 +34,10 @@ p {
 	font-size: 18px;
 	height: 100px;
 	line-height: 100px;
-	text-align: center;
 }
 ul {
 	font-size: 15px;
 	list-style: none;
-	text-align: center;
 }
 @media screen and (max-width: 320px) {
 	ul {

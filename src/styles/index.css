@@ -1,7 +1,19 @@
 @import url('https://unpkg.com/@fontsource/jetbrains-mono');
 
+:root {
+	--text-theme: #0000ff;
+}
+
 * {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'JetBrains Mono';
+}
+
+.posn-mi {
+	text-align: center;
+}
+
+.no-under {
+	text-decoration: none;
 }
