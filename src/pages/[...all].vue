@@ -1,9 +1,9 @@
 <template>
-	<div class="posn-mi">
+	<div class="posn-middle">
 		<h2>404</h2>
 		<p>
 			We could not find the page you were looking for. Let's go
-			<router-link class="no-under" to="/">home</router-link>.
+			<router-link to="/">home</router-link>.
 		</p>
 	</div>
 </template>

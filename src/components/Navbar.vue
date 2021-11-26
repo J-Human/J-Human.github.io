@@ -12,10 +12,10 @@
 		<nav id="navbar">
 			<ul id="navbar-links">
 				<li>
-					<router-link to="/" class="no-under">About me</router-link>
+					<router-link to="/">About me</router-link>
 				</li>
 				<li>
-					<router-link to="/contact" class="no-under">Contact</router-link>
+					<router-link to="/contact">Contact</router-link>
 				</li>
 			</ul>
 		</nav>

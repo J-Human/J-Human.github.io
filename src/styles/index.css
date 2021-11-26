@@ -8,12 +8,9 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'JetBrains Mono';
-}
-
-.posn-mi {
-	text-align: center;
-}
-
-.no-under {
 	text-decoration: none;
+}
+
+.posn-middle {
+	text-align: center;
 }

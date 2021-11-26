@@ -1,5 +1,5 @@
 <template>
-	<div class="posn-mi">
+	<div class="posn-middle">
 		<h2>Justin <span>(he/him)</span></h2>
 		<p>
 			Hi there. I make software. I have experience in open source, backend, and a good amount of web development

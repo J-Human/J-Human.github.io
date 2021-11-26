@@ -1,9 +1,9 @@
 <template>
 	<div v-if="contacts">
-		<ul v-for="link in contacts" :key="link.name" class="posn-mi">
+		<ul v-for="link in contacts" :key="link.name" class="posn-middle">
 			<li>
 				<i :class="`fa${link.brand ? '-brands' : 's'} fa-${link.icon}`" /> {{ link.name }}:
-				<a :href="link.link" target="_blank" class="no-under" rel="noopener noreferrer">{{ link.value }}</a>
+				<a :href="link.link" target="_blank" rel="noopener noreferrer">{{ link.value }}</a>
 			</li>
 		</ul>
 		<footer>
