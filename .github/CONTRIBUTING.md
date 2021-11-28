@@ -1,12 +1,12 @@
-## Developer guide
+# Developer guide
 
-### Prerequisites
+## Prerequisites
 
 -   Node.js (preferaby, the latest LTS version)
 -   pnpm v6 or higher
 -   Git
 
-### Process
+## Process
 
 1. Clone the repository. Then, make sure to go to the output directory.
 
