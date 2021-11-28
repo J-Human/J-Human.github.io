@@ -23,7 +23,7 @@ const contacts = computed(() => parse(data));
 
 <style scoped>
 a:visited {
-	color: var(--text-theme);
+	color: var(--link-color);
 }
 footer > p {
 	bottom: 1px;
@@ -39,7 +39,7 @@ ul {
 	font-size: 15px;
 	list-style: none;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 	ul {
 		font-size: 10px;
 	}

@@ -13,15 +13,15 @@ a {
 	transition: all 0.3s ease 0s;
 }
 a:visited {
-	color: var(--text-theme);
+	color: var(--link-color);
 }
 h2 {
+	color: var(--theme-main);
 	font-size: 50px;
-	font-weight: bold;
 	margin-top: 70px;
 }
 p {
-	color: #1c1b1d;
+	color: var(--almost-black);
 	font-size: 19px;
 	margin: 90px;
 	margin-top: 70px;

@@ -24,14 +24,13 @@
 
 <style scoped>
 * {
-	background-color: #ffffff;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 a,
 li {
-	color: #24a9e6;
+	color: var(--theme-main);
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -64,21 +63,14 @@ header {
 	transition: all 0.3s ease 0s;
 }
 #navbar-links li a:hover {
-	color: var(--text-theme);
+	color: var(--link-color);
 }
 #navbar-links li a:active {
-	color: var(--text-theme);
+	color: var(--link-color);
 }
-/* iPhone SE */
 @media screen and (max-width: 375px) {
 	#navbar-links li {
 		padding: 0px 3px;
-	}
-}
-/* Experimental */
-@media (prefers-contrast: more) {
-	#logo {
-		filter: contrast(100%);
 	}
 }
 </style>
