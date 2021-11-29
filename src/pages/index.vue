@@ -5,7 +5,7 @@
 			Hi there. I make software. I have experience in open source, backend, and a good amount of web development
 			with React and Vue. Nowadays I commonly use TypeScript, Python, and C++. I know UNIX shell scripting, Git,
 			and SQL. I'm familiar with Linux, and macOS. I enjoy watching movies, travelling, reading books, and gaming.
-			Placing effort is my core value. Feel free to chat with me.
+			I try to place effort in things. Feel free to chat with me.
 		</p>
 	</div>
 </template>
