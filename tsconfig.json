@@ -20,6 +20,7 @@
 		"resolveJsonModule": true,
 		"rootDir": ".",
 		"typeRoots": ["./node_modules/**/*"],
+		"types": ["vite/client", "vite-plugin-pages/client"],
 
 		// Emit
 		"importHelpers": true,
