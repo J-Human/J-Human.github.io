@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@typescript-eslint/eslint-plugin': ^5.4.0
   '@typescript-eslint/parser': ^5.4.0
-  '@vitejs/plugin-vue': ^1.9.4
+  '@vitejs/plugin-vue': ^2.0.0
   '@vueuse/core': ^7.0.1
   eslint: ^8.3.0
   eslint-config-marine: ^9.0.6
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.4.0_5c8ff4cecd5a55e744866c0654edac32
   '@typescript-eslint/parser': 5.4.0_eslint@8.3.0+typescript@4.5.2
-  '@vitejs/plugin-vue': 1.9.4_vite@2.6.14
+  '@vitejs/plugin-vue': 2.0.0_vite@2.6.14+vue@3.2.22
   eslint: 8.3.0
   eslint-config-marine: 9.0.6
   eslint-config-prettier: 8.3.0_eslint@8.3.0
@@ -243,13 +243,15 @@ packages:
       eslint-visitor-keys: 3.1.0
     dev: true
 
-  /@vitejs/plugin-vue/1.9.4_vite@2.6.14:
-    resolution: {integrity: sha512-0CZqaCoChriPTTtGkERy1LGPcYjGFpi2uYRhBPIkqJqUGV5JnJFhQAgh6oH9j5XZHfrRaisX8W0xSpO4T7S78A==}
+  /@vitejs/plugin-vue/2.0.0_vite@2.6.14+vue@3.2.22:
+    resolution: {integrity: sha512-4Xn1h9OcaAf7KYrvz2oEi52fCCCLcCzyr3pDOrzYTWrs0DrzNOXt9fT5IiGb1f/uoNTdX3aAkXVGNXrGkzF/zw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
+      vue: ^3.2.25
     dependencies:
       vite: 2.6.14
+      vue: 3.2.22
     dev: true
 
   /@volar/code-gen/0.29.6:
