@@ -2,5 +2,6 @@
 	"dependencyDashboard": false,
 	"extends": ["config:base", ":preserveSemverRanges"],
 	"groupName": "all",
+	"labels": ["scope: dependencies"],
 	"schedule": ["every weekend"]
 }
