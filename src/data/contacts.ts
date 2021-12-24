@@ -10,7 +10,7 @@ export default `
 	icon = "discord"
 	brand = true
 	name = "Discord"
-	value = "Justin ;)#2021"
+	value = "Justin ;)#3507"
 	link = "https://discord.com/users/746315246582366280"
 
 	[reddit]
