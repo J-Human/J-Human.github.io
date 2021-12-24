@@ -1,4 +1,4 @@
-import{_ as fi}from"./index.635544c2.js";import{h as ai,l as ci,u as Ds,o as Ae,c as me,F as ui,m as oi,p as pi,d as hi,a as he,n as gi,e as di,t as Is}from"./vendor.12cca655.js";var vi=`
+import{_ as fi}from"./index.77584bc1.js";import{h as ai,l as ci,u as Ds,o as Ae,c as me,F as ui,m as oi,p as pi,d as hi,a as he,n as gi,e as di,t as Is}from"./vendor.12cca655.js";var vi=`
 	[github]
 	icon = "github"
 	brand = true
@@ -10,7 +10,7 @@ import{_ as fi}from"./index.635544c2.js";import{h as ai,l as ci,u as Ds,o as Ae,
 	icon = "discord"
 	brand = true
 	name = "Discord"
-	value = "Justin ;)#2021"
+	value = "Justin ;)#3507"
 	link = "https://discord.com/users/746315246582366280"
 
 	[reddit]
