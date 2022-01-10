@@ -1,5 +1,3 @@
-// TOML's parse() function but with error handling
-
 import * as TOML from 'toml';
 
 export function parse(input: string): ReturnType<typeof TOML.parse> | void {
