@@ -16,7 +16,7 @@ specifiers:
   toml: ^3.0.0
   typescript: ^4.5.3
   vite: ^2.7.1
-  vite-plugin-pages: 0.19.9
+  vite-plugin-pages: 0.20.0
   vue: ^3.2.26
   vue-router: ^4.0.12
   vue-tsc: ^0.30.0
@@ -41,7 +41,7 @@ devDependencies:
   prettier: 2.5.1
   typescript: 4.5.3
   vite: 2.7.1
-  vite-plugin-pages: 0.19.9_vite@2.7.1
+  vite-plugin-pages: 0.20.0_vite@2.7.1
   vue-tsc: 0.30.0_typescript@4.5.3
 
 packages:
@@ -519,12 +519,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       fill-range: 7.0.1
-    dev: true
-
-  /builtins/4.0.0:
-    resolution: {integrity: sha512-qC0E2Dxgou1IHhvJSLwGDSTvokbRovU5zZFuDY6oY8Y2lF3nGt5Ad8YZK7GMtqzY84Wu7pXTPeHQeHcXSXsRhw==}
-    dependencies:
-      semver: 7.3.5
     dev: true
 
   /call-bind/1.0.2:
@@ -1108,9 +1102,9 @@ packages:
     resolution: {integrity: sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==}
     dev: true
 
-  /fast-glob/3.2.7:
-    resolution: {integrity: sha512-rYGMRwip6lUMvYD3BTScMwT1HtAs2d71SMv66Vrxs0IekGZEjhM0pcMfjQPnknBt2zeCwQMEupiN02ZP4DiT1Q==}
-    engines: {node: '>=8'}
+  /fast-glob/3.2.11:
+    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
+    engines: {node: '>=8.6.0'}
     dependencies:
       '@nodelib/fs.stat': 2.0.5
       '@nodelib/fs.walk': 1.2.8
@@ -1237,7 +1231,7 @@ packages:
     dependencies:
       array-union: 2.1.0
       dir-glob: 3.0.1
-      fast-glob: 3.2.7
+      fast-glob: 3.2.11
       ignore: 5.1.9
       merge2: 1.4.1
       slash: 3.0.0
@@ -1302,12 +1296,6 @@ packages:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
-    dev: true
-
-  /import-meta-resolve/1.1.1:
-    resolution: {integrity: sha512-JiTuIvVyPaUg11eTrNDx5bgQ/yMKMZffc7YSjvQeSMXy58DO2SQ8BtAf3xteZvmzvjYh14wnqNjL8XVeDy2o9A==}
-    dependencies:
-      builtins: 4.0.0
     dev: true
 
   /imurmurhash/0.1.4:
@@ -1539,11 +1527,9 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /local-pkg/0.4.0:
-    resolution: {integrity: sha512-2XBWjO/v63JeR1HPzLJxdTVRQDB84Av2p2KtBA5ahvpyLUPubcAU6iXlAJrONcY7aSqgJhXxElAnKtnYsRolPQ==}
+  /local-pkg/0.4.1:
+    resolution: {integrity: sha512-lL87ytIGP2FU5PWwNDo0w3WhIo2gopIAxPg9RxDYF7m4rr5ahuZxP22xnJHIvaLTe4Z9P6uKKY2UHiwyB4pcrw==}
     engines: {node: '>=14'}
-    dependencies:
-      mlly: 0.2.10
     dev: true
 
   /lodash.merge/4.6.2:
@@ -1588,12 +1574,6 @@ packages:
 
   /minimist/1.2.5:
     resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
-    dev: true
-
-  /mlly/0.2.10:
-    resolution: {integrity: sha512-xfyW6c2QBGArtctzNnTV5leOKX8nOMz2simeubtXofdsdSJFSNw+Ncvrs8kxcN3pBrQLXuYBHNFV6NgZ5Ryf4A==}
-    dependencies:
-      import-meta-resolve: 1.1.1
     dev: true
 
   /ms/2.1.2:
@@ -2043,8 +2023,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite-plugin-pages/0.19.9_vite@2.7.1:
-    resolution: {integrity: sha512-yM2xMgbtVDn6tNF/LBwI9z5f7wr4QvO7oouHEUzPjtL52fyPrAx/IzG/SSVHKYL/0Orccw8dIkjcv2OVCDBihw==}
+  /vite-plugin-pages/0.20.0_vite@2.7.1:
+    resolution: {integrity: sha512-yM+8ORpssLknR59HL26kz2g7BU79CGkgyw28rLpsbpjX7GgYBDgTHp4llMrpRD8JAeJBndP7CdUmpBM3ReG4Sw==}
     peerDependencies:
       '@vue/compiler-sfc': '>=3'
       vite: '>=2'
@@ -2054,11 +2034,11 @@ packages:
     dependencies:
       debug: 4.3.3
       deep-equal: 2.0.5
-      fast-glob: 3.2.7
+      fast-glob: 3.2.11
       json5: 2.2.0
-      local-pkg: 0.4.0
+      local-pkg: 0.4.1
       vite: 2.7.1
-      yaml: 2.0.0-9
+      yaml: 2.0.0-10
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2333,7 +2313,7 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
-  /yaml/2.0.0-9:
-    resolution: {integrity: sha512-Bf2KowHjyVkIIiGMt7+fbhmlvKOaE8DWuD07bnL4+FQ9sPmEl/5IzGpBpoxPqOaHuyasBjJhyXDcISpJWfhCGw==}
+  /yaml/2.0.0-10:
+    resolution: {integrity: sha512-FHV8s5ODFFQXX/enJEU2EkanNl1UDBUz8oa4k5Qo/sR+Iq7VmhCDkRMb0/mjJCNeAWQ31W8WV6PYStDE4d9EIw==}
     engines: {node: '>= 12'}
     dev: true
