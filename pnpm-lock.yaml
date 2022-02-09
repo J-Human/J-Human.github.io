@@ -16,7 +16,7 @@ specifiers:
   toml: ^3.0.0
   typescript: ^4.5.3
   vite: ^2.7.1
-  vite-plugin-pages: 0.20.1
+  vite-plugin-pages: 0.20.2
   vue: ^3.2.26
   vue-router: ^4.0.12
   vue-tsc: ^0.31.0
@@ -41,7 +41,7 @@ devDependencies:
   prettier: 2.5.1
   typescript: 4.5.3
   vite: 2.7.1
-  vite-plugin-pages: 0.20.1_vite@2.7.1
+  vite-plugin-pages: 0.20.2_vite@2.7.1
   vue-tsc: 0.31.0_typescript@4.5.3
 
 packages:
@@ -2051,8 +2051,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite-plugin-pages/0.20.1_vite@2.7.1:
-    resolution: {integrity: sha512-VHKE1/39HW4vqUcGLO6blq8MKqzP73kxYW9bykH1ihRfhgp7HLMCgTvmag6zDa66iKafzM3orzjVeIg4dUA+4A==}
+  /vite-plugin-pages/0.20.2_vite@2.7.1:
+    resolution: {integrity: sha512-A/N6Pez9sMzt7ZEfd1H7P9tmP6LrZwXMexV8xSiRahnUeNw+gz0W2dsPLJDZBvcixDZqoK8ggKdmyxgVBuTAfg==}
     peerDependencies:
       '@vue/compiler-sfc': '>=3'
       vite: '>=2'
