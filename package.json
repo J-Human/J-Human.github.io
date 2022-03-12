@@ -11,7 +11,7 @@
 		"serve": "vite preview"
 	},
 	"dependencies": {
-		"@vueuse/core": "^7.3.0",
+		"@vueuse/core": "^8.0.0",
 		"toml": "^3.0.0",
 		"vue": "^3.2.26",
 		"vue-router": "^4.0.12"
