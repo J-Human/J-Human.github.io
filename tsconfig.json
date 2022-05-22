@@ -37,7 +37,7 @@
 		"lib": ["DOM", "ESNext"],
 		"target": "ES2021",
 
-		// Completenes
+		// Completeness
 		"skipLibCheck": true
 	},
 	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
