@@ -2,21 +2,23 @@
 
 ## Prerequisites
 
--   Node.js (preferaby, the latest LTS version)
--   pnpm v6 or higher
+-   Node.js v18 or higher[^fn]
+-   pnpm v7 or higher[^fn]
 -   Git
+
+[^fn]: Lower versions may work but isn't tested.
 
 ## Process
 
 1. Clone the repository. Then, make sure to go to the output directory.
 
-```sh
+```sh-session
 git clone https://github.com/J-Human/J-Human.github.io.git
 ```
 
 2. Install all dependencies:
 
-```sh
+```sh-session
 pnpm install
 ```
 
