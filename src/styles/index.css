@@ -1,19 +1,9 @@
 @import url('https://unpkg.com/@fontsource/jetbrains-mono');
 
-:root {
-	--almost-black: #1c1b1d;
-	--light-gray: #808080;
-	--link-color: #0000ff;
-	--theme-main: #24a9e6;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
 	font-family: 'JetBrains Mono', monospace;
-	text-decoration: none;
-}
-
-.posn-middle {
-	text-align: center;
 }

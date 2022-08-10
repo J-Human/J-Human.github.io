@@ -1,5 +1,5 @@
 <template>
-	<header>
+	<header class="flex space-x-6 pl-8 pt-6 md:space-x-12">
 		<img
 			id="logo"
 			alt="logo"
@@ -9,68 +9,15 @@
 				../../public/assets/icon-512x512.png 10.7x
 			"
 		/>
-		<nav id="navbar">
-			<ul id="navbar-links">
-				<li>
+		<nav>
+			<ul class="flex space-x-8 pt-3 text-[#007cb4]">
+				<li class="underline-offset-2 hover:underline">
 					<router-link to="/">About me</router-link>
 				</li>
-				<li>
+				<li class="underline-offset-2 hover:underline">
 					<router-link to="/contact">Contact</router-link>
 				</li>
 			</ul>
 		</nav>
 	</header>
 </template>
-
-<style scoped>
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-a,
-li {
-	color: var(--theme-main);
-	font-size: 16px;
-	font-weight: 500;
-}
-header {
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
-	padding: 30px 10%;
-}
-#logo {
-	aspect-ratio: attr(width) / attr(height);
-	cursor: pointer;
-	margin-left: auto;
-	order: 2;
-}
-#navbar {
-	order: 1;
-}
-#navbar-links {
-	list-style: none;
-}
-#navbar-links li {
-	display: inline-block;
-	padding: 0px 20px;
-}
-#navbar-links li:nth-child(1) {
-	padding: 0 20px 0 0;
-}
-#navbar-links li a {
-	transition: all 0.3s ease 0s;
-}
-#navbar-links li a:hover {
-	color: var(--link-color);
-}
-#navbar-links li a:active {
-	color: var(--link-color);
-}
-@media screen and (max-width: 375px) {
-	#navbar-links li {
-		padding: 0px 3px;
-	}
-}
-</style>
