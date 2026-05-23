@@ -37,6 +37,6 @@
 		"vite": "^4.0.0",
 		"vite-plugin-pages": "0.29.0",
 		"vite-plugin-toml": "^0.5.0",
-		"vue-tsc": "^1.0.0"
+		"vue-tsc": "^3.0.0"
 	}
 }
